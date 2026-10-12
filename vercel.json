@@ -3,20 +3,14 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "services": {
     "backend": {
-      "root": "Atención_Cliente/backend"
+      "root": "Atencion_Cliente/backend"
     },
     "frontend": {
-      "root": "Atención_Cliente/Interfaz",
+      "root": "Atencion_Cliente/Interfaz",
       "framework": "angular"
     }
   },
   "rewrites": [
-    {
-      "source": "/api",
-      "destination": {
-        "service": "backend"
-      }
-    },
     {
       "source": "/api/(.*)",
       "destination": {
