@@ -3,12 +3,12 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "services": {
     "backend": {
-      "root": "Atencion_Cliente/backend",
+      "root": "Atención_Cliente/backend",
       "framework": "fastapi",
       "entrypoint": "main:app"
     },
     "frontend": {
-      "root": "Atencion_Cliente/Interfaz",
+      "root": "Atención_Cliente/Interfaz",
       "framework": "angular"
     }
   },
